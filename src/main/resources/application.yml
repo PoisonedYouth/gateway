@@ -19,4 +19,10 @@ tracing:
     sampler:
       probability: 1
 
-
+---
+micronaut:
+  security:
+    enabled: true
+    endpoints:
+      login:
+        enabled: true
